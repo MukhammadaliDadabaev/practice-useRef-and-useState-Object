@@ -1,0 +1,35 @@
+.container {
+  width: 50%;
+  margin: auto;
+  border: none;
+}
+.badge {
+  margin-left: 25px;
+}
+.fa-users {
+  margin-right: 15px;
+  color: navy;
+}
+h4 {
+  cursor: pointer;
+}
+.btn-primary,
+.btn-warning {
+  transition: all 0.35s ease;
+}
+.btn-primary:hover {
+  background-color: rgb(0, 73, 242);
+  transform: translateY(-2px);
+}
+.btn-primary:active {
+  background-color: rgb(0, 30, 255);
+  transform: translateY(2px);
+}
+.btn-warning:hover {
+  background-color: gold;
+  transform: translateY(-2px);
+}
+.btn-warning:active {
+  background-color: goldenrod;
+  transform: translateY(2px);
+}
